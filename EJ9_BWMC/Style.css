@@ -1,0 +1,29 @@
+/*Estilos generales del body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;/*Fondo oscuro */
+    font-family: Arial, sans-serif; 
+}
+
+/*Estilos para el menu*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menu a {
+    color:#fff; /* Color de texto blanco */
+    text-decoration: none;
+    margin: 15px 0 ;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+/*Efecto hover para los enlaces del menu */
+.menu a:hover {
+    background-color: #e01616; /* Color de fondo al pasar el mouse */
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
